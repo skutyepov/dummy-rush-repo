@@ -11,11 +11,13 @@
   "projects": [
     {
       "packageName": "a",
-      "projectFolder": "packages/a"
+      "projectFolder": "packages/a",
+      "versionPolicyName": "MyPolicyName"
     },
     {
       "packageName": "b",
-      "projectFolder": "packages/b"
+      "projectFolder": "packages/b",
+      "versionPolicyName": "MyPolicyName"
     }
   ]
 }
