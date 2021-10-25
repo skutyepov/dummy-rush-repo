@@ -16,5 +16,13 @@
   "variants": [
   ],
   "projects": [
+    {
+      "packageName": "a",
+      "projectFolder": "packages/a"
+    },
+    {
+      "packageName": "b",
+      "projectFolder": "packages/b"
+    }
   ]
 }
