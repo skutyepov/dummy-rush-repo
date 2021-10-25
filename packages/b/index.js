@@ -1,1 +1,1 @@
-console.log('hello I am package b');
+console.log('hello I am package b and I was updated...');
