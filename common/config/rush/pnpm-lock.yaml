@@ -10,14 +10,30 @@ dependencies:
 
 packages:
 
+  /typescript/3.9.10:
+    resolution: {integrity: sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
+  /typescript/4.5.5:
+    resolution: {integrity: sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
+    dev: false
+
   file:projects/a.tgz:
-    resolution: {integrity: sha512-bLKoiyJmWt0ssoRDzGkT/T+HIx0qx4T2KV/wYFPFZAOanvS7qjGSky3braRTgSFt2D6xkaCq07TusFFS+/B49g==, tarball: file:projects/a.tgz}
+    resolution: {integrity: sha512-YttWX41pIWal1vG3OwIETUhxVSq0rO/qtgRrmB8ZAlXPqhwjmJdpoCd9Zzg4SN/8V7AO+xuSFzmzmyM/UzYneA==, tarball: file:projects/a.tgz}
     name: '@rush-temp/a'
     version: 0.0.0
+    dependencies:
+      typescript: 3.9.10
     dev: false
 
   file:projects/b.tgz:
-    resolution: {integrity: sha512-2ZVdzwuN3pWKaTA7fiW2PvJiFFuTap/Sbh7/FjavGC3a6H3RBxF1I9/C9hNoX8yKRji/WY8qkHSVkJv+dwGiKQ==, tarball: file:projects/b.tgz}
+    resolution: {integrity: sha512-BTgvDCDRhVw0nkx5j38h+pT4Vnr/OpOlW7cim895L1rDpJloAADRVQDzzTe47CrSpf3HtTN2G2nCqxikSWhnnw==, tarball: file:projects/b.tgz}
     name: '@rush-temp/b'
     version: 0.0.0
+    dependencies:
+      typescript: 4.5.5
     dev: false
