@@ -1,0 +1,34 @@
+{
+  "name": "rush-common",
+  "version": "0.0.0",
+  "lockfileVersion": 1,
+  "requires": true,
+  "dependencies": {
+    "@rush-temp/a": {
+      "version": "file:projects/a.tgz",
+      "integrity": "sha512-YttWX41pIWal1vG3OwIETUhxVSq0rO/qtgRrmB8ZAlXPqhwjmJdpoCd9Zzg4SN/8V7AO+xuSFzmzmyM/UzYneA==",
+      "requires": {
+        "typescript": "^3"
+      }
+    },
+    "@rush-temp/b": {
+      "version": "file:projects/b.tgz",
+      "integrity": "sha512-BTgvDCDRhVw0nkx5j38h+pT4Vnr/OpOlW7cim895L1rDpJloAADRVQDzzTe47CrSpf3HtTN2G2nCqxikSWhnnw==",
+      "requires": {
+        "typescript": "^4"
+      },
+      "dependencies": {
+        "typescript": {
+          "version": "4.5.5",
+          "resolved": "https://registry.npmjs.org/typescript/-/typescript-4.5.5.tgz",
+          "integrity": "sha512-TCTIul70LyWe6IJWT8QSYeA54WQe8EjQFU4wY52Fasj5UKx88LNYKCgBEHcOMOrFF1rKGbD8v/xcNWVUq9SymA=="
+        }
+      }
+    },
+    "typescript": {
+      "version": "3.9.10",
+      "resolved": "https://registry.npmjs.org/typescript/-/typescript-3.9.10.tgz",
+      "integrity": "sha512-w6fIxVE/H1PkLKcCPsFqKE7Kv7QUwhU8qQY2MueZXWx5cPZdwFupLgKK3vntcK98BtNHZtAF4LA/yl2a7k8R6Q=="
+    }
+  }
+}
